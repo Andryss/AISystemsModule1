@@ -9,3 +9,18 @@
 [mafia.owl](./mafia.owl) - онтология (можно открыть при помощи [Protege](https://protege.stanford.edu/))
 
 [main.py](./main.py) - система поддержки принятия решений
+
+
+## Usage
+
+Для запуска необходима библиотека `pyswip`:
+
+```bash
+pip install git+https://github.com/yuce/pyswip@master#egg=pyswip
+```
+
+Запуск системы поддержки принятия решений:
+
+```bash
+python main.py
+```
